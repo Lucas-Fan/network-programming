@@ -1,0 +1,95 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "hello_client",
+      "command": "/usr/bin/clang",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}/chapter-1/hello_client.c", //当前workspace下的文件
+        "-o",
+        "${workspaceFolder}/chapter-1/hello_client.o" //生成的可执行文件的路径及名称
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "detail": "编译器: /usr/bin/clang"
+    },
+    {
+      "type": "cppbuild",
+      "label": "hello_server",
+      "command": "/usr/bin/clang",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}/chapter-1/hello_server.c", //当前workspace下的文件
+        "-o",
+        "${workspaceFolder}/chapter-1/hello_server.o" //生成的可执行文件的路径及名称
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "detail": "编译器: /usr/bin/clang"
+    },
+    {
+      "type": "cppbuild",
+      "label": "low_open",
+      "command": "/usr/bin/clang",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}/chapter-1/low_open.c", //当前workspace下的文件
+        "-o",
+        "${workspaceFolder}/chapter-1/low_open.o" //生成的可执行文件的路径及名称
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "detail": "编译器: /usr/bin/clang"
+    },
+    {
+      "type": "cppbuild",
+      "label": "low_read",
+      "command": "/usr/bin/clang",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}/chapter-1/low_read.c", //当前workspace下的文件
+        "-o",
+        "${workspaceFolder}/chapter-1/low_read.o" //生成的可执行文件的路径及名称
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "detail": "编译器: /usr/bin/clang"
+    },
+    {
+      "type": "cppbuild",
+      "label": "fd_seri",
+      "command": "/usr/bin/clang",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${workspaceFolder}/chapter-1/fd_seri.c", //当前workspace下的文件
+        "-o",
+        "${workspaceFolder}/chapter-1/fd_seri.o" //生成的可执行文件的路径及名称
+      ],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "detail": "编译器: /usr/bin/clang"
+    }
+  ]
+}
